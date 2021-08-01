@@ -1,0 +1,11 @@
+from django.contrib import admin
+from sisyphusapp.models import Contact, FreeboardConstructionCost
+
+#class FreeboardConstructionCostAdmin(admin.ModelAdmin):
+#	list_display = ("address", "street", "floodzone", "parish", "no_floors",)
+
+# Register your models here.
+admin.site.register(Contact)
+admin.site.register(FreeboardConstructionCost)
+
+#admin.site.register(FreeboardConstructionCostAdmin)

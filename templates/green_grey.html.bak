@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Map of Key Resilient Facilities in New Orleans</title>
+  <style>
+    html,
+    body,
+
+    #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    #layerTitle1,
+    #layerTitle2 {
+      width: auto;
+      font-size: 1.5vw;
+      background-color: white;
+      opacity: 0.6;
+      font-weight: bold;
+      font-family: Calibri;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.19/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.19/"></script>
+    <script src = "demo.js"></script>
+	<script src = "secret.js"></script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <div id="layerTitle1"></div>
+  <div id="layerTitle2"></div>
+ 
+</body>
+
+</html> 
