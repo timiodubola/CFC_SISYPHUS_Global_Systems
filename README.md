@@ -1,6 +1,6 @@
 # SISYPHUS Global Systems
 
-We have built a web portal that utilized ArcGIS maps and WebXR to provide different users (in the pilot city of New Orleans) with an immersive augmented reality experience of assessing their properties' flood risks, and viewing their city's green and grey infrastructure. Currently, our immersive experiences are provided as demonstrations, but eventually, we hope to complete the back end code to enable automated predictions of flood risk for individual properties and a 3D rendered map of city infrastructure, which will be useful for individual home owners as well as officials such as city planners to implement flood mitigation strategies.   
+We have built a web portal that utilizes ArcGIS maps and WebXR to provide different users (in the pilot city of New Orleans) with an immersive augmented reality experience of assessing their properties' flood risks, and viewing their city's green and grey infrastructure. Currently, our immersive experiences are provided as demonstrations, but eventually, we hope to complete the back end code to enable automated predictions of flood risk for individual properties and a 3D rendered map of city infrastructure, which will be useful for individual home owners as well as officials such as city planners to implement flood mitigation strategies.   
 
 Our web-app comprises of the following pages:
 1) A home page for a user to submit their house address to assess the flood risk
