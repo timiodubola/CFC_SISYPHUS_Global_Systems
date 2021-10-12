@@ -27,4 +27,6 @@ B) In case our code engine deployment fails, please follow the following steps t
 6) Configure browser to use WebXR: 
 To be able to run the AR pages on your desktop browser install the WebXR Emulator extension for Chrome browsers. A handy description is provided here: https://blog.mozvr.com/webxr-emulator-extension/
 
+## SISYPHUS has recently placed 2nd in the AI Spot Challenge. To learn more, please visit this [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS). 
+
 ## To learn more about SISYPHUS, please visit our [website](https://sisyphus-gs.com/).
