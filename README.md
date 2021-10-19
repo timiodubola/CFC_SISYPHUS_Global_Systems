@@ -29,8 +29,8 @@ To be able to run the AR pages on your desktop browser install the WebXR Emulato
 
 ## To learn more about SISYPHUS, please visit our [website](https://sisyphus-gs.com/).
 
-## Next Steps:
-## SISYPHUS recently placed 2nd in the AI Spot Challenge. To learn more, please visit this [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS). 
+# Next Steps: 
+## SISYPHUS recently placed 2nd in the AI Spot Challenge. Code in [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS). 
 
 # IBM_AISpot_SISYPHUS
 Submission for the IBM CFC AI Spot Challenge
