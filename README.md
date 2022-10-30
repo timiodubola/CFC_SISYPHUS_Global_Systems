@@ -5,8 +5,9 @@ We have built a web portal that utilized ArcGIS maps and WebXR to provide differ
 Our web-app comprises of the following pages:
 1) A home page for a user to submit their house address to assess the flood risk
 2) A New Orleans Green-Grey Infrastructure Page map: This map curated by our team's GIS experts displays the current state of New Orleans green and grey infrastructure. Users can also overlay a flood risk map to visualize how the presence (or lack) of appropriate green and grey infrastructure minimizes (or enhances) flood inundation risk. 
-3) AR Map Demo: In this immersive-ar demo, users are able to render the flood risk map for New Orleans onto a lot surface to visualize it interactively.
-4) AR Home Demo: In this demo, a user is able to visualize how our app  will provide predictions for their property's flood risk. 
+3) Floor Map AR_Table Demo: users are able to render the flood risk map for New Orleans onto a lot surface to visualize it interactively.
+4) Home Flood AR_Room Demo: users are able to visualize how our app will provide predictions for their property's flood risk.
+5) Green Infrastructure AR_World Demo: users can view New Orleans' green infrastructure projects and access the ecosystem service data.
 
 ## The following steps are required to run our application: 
 A) Using Code Engine: 
@@ -30,12 +31,10 @@ To be able to run the AR pages on your desktop browser install the WebXR Emulato
 ## To learn more about SISYPHUS, please visit our [website](https://sisyphus-gs.com/).
 
 # Next Steps: 
-## SISYPHUS recently placed 2nd in the AI Spot Challenge. Code in [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS). 
+## SISYPHUS won the 2021 IBM AI Spot Challenge.
+Visit the [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS) or see its contents below. 
 
-# IBM_AISpot_SISYPHUS
-Submission for the IBM CFC AI Spot Challenge
-
-# Solution Description
+## Solution Description
 For the AI Spot Challenge we utilized an appropriate hybrid data-management strategy. 
 We tested multiple supervised machine learning algorithms using the Cloud Pak Auto AI service with our ground-up built dataset. 
 We are exploring Watson Studio & Cloud Pak for future unsupervised ML (e.g., dimensionality reduction) with our multicloud data platform. 
@@ -52,8 +51,8 @@ Since, we are not currently at liberty to release data from indivdual properties
 We used this test dataset (flood_risk_binary_rm_ufeats_labels.csv) describing various attributes (land use, water area, tree count, no. of buildings, repetitive flood loss etc.) of these census blocks to predict the FIRM score.
 The FIRM score represents a "Flood insurance rating" issued by the Federal Emergency Management Agency (FEMA), with a high FIRM score indicative of a high flood risk. 
 
-# About the Dataset
-## The following variables were used as predictors in our model:
+## About the Dataset
+### The following variables were used as predictors in our model:
 
 LOTCNT= Total number of lots per census block group
 
@@ -101,12 +100,12 @@ TREE/ACRE=trees per acre
 
 HISTZONE= historic zone land use (1 good to 7 bad)
 
-## The following attribute was predicted:
+### The following attribute was predicted:
 
 FIRM_BINARY = [Low_Risk, High_Risk]
 
-# Methodology
-## Training and Selecting the Best ML Model
+## Methodology
+### Training and Selecting the Best ML Model
 
 We used the IBM Auto AI Service to test multiple machine learning algorithms to finally select the "Extra Trees Classifier" as the best algorithm for modelling our data. 
 
@@ -137,7 +136,7 @@ We used the IBM Auto AI Service to test multiple machine learning algorithms to 
 It is evident above that the model can be improved further, which we are continuing work on. 
 
 
-# To run our submission
+## To run our submission
 
 Our final submission for this challenge is a Flask based webapp that uses the above built model for predicting the Flood Risk given input data. 
 
