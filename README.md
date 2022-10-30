@@ -10,28 +10,37 @@ Our web-app comprises of the following pages:
 5) Green Infrastructure AR_World Demo: users can view New Orleans' green infrastructure projects and access the ecosystem service data.
 
 ## The following steps are required to run our application: 
+### Part 1:
 A) Using Code Engine: 
 Docker image: docker.io/uqktiwar/sisyphus:latest
 code engine app URL: https://app-e3.cml40ggv51o.jp-osa.codeengine.appdomain.cloud/ 
 
 B) In case our code engine deployment fails, please follow the following steps to deploy the website: 
 1) Install dependencies: python-3, django
-
 2) Clone the github repo: https://github.com/trungvu08/CFC_SISYPHUS_Global_Systems.git
-
 3) CD into the repository: cd CFC_SISYPHUS_Global_Systems
-
 4) run the following cmd in terminal: python manage.py runserver
-
 5) The application will be hosted at http://127.0.0.1:8000/
-
 6) Configure browser to use WebXR: 
 To be able to run the AR pages on your desktop browser install the WebXR Emulator extension for Chrome browsers. A handy description is provided here: https://blog.mozvr.com/webxr-emulator-extension/
-
+### Part 2:
+A) For our Green Infrastructure AR_World Demo, download the free ArcGIS AppStudio Player from the Apple App Store. Upon opening the app...
+1) Select "Sign In" then select "Sign In" under the ArcGIS Online section
+2) Sign in with username "test@gn" and password "gn@94596"
+3) Click on the "SHARED" tab
+4) Download "Green Infrastructure AR" and select that section once the download completes
+5) Do NOT grant the app location access, but do grant the app camera access
+6) Proceed to sign in again using the same information from Step #2
+7) Select the "1027_green_infrastructure" data source
+8) Deselect the bottom-right, blue circle to prevent being moved to your current location
+8) Select the top-right 3-bar menu and select the bottom-left "Map" button
+9) Select the top-right 3-bar menu again and select "Settings"
+10) In settings, go to the "Popups" tab and checkmark all properties
+11) You can switch from GIS view to AR view by using the left purple bar to "refresh"
 ## To learn more about SISYPHUS, please visit our [website](https://sisyphus-gs.com/).
 
-# Next Steps: 
-## SISYPHUS won the 2021 IBM AI Spot Challenge.
+# Extra Information:
+# SISYPHUS won the 2021 IBM AI Spot Challenge.
 Visit the [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS) or see its contents below. 
 
 ## Solution Description
