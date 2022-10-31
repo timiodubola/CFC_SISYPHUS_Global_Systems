@@ -5,7 +5,7 @@ We have built a web portal that utilized ArcGIS maps and WebXR to provide differ
 Our web-app comprises of the following pages:
 1) A home page for a user to submit their house address to assess the flood risk
 2) A New Orleans Green-Grey Infrastructure Page map: This map curated by our team's GIS experts displays the current state of New Orleans green and grey infrastructure. Users can also overlay a flood risk map to visualize how the presence (or lack) of appropriate green and grey infrastructure minimizes (or enhances) flood inundation risk. 
-3) Floor Map AR_Table Demo: users are able to render the flood risk map for New Orleans onto a lot surface to visualize it interactively.
+3) Flood Map AR_Table Demo: users are able to render the flood risk map for New Orleans onto a lot surface to visualize it interactively.
 4) Home Flood AR_Room Demo: users are able to visualize how our app will provide predictions for their property's flood risk.
 5) Green Infrastructure AR_World Demo: users can view New Orleans' green infrastructure projects and access the ecosystem service data.
 
